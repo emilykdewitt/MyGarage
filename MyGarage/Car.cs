@@ -15,9 +15,13 @@ namespace MyGarage
 
         public override void Refuel()
         {
-            Console.WriteLine($"Your tank contains {GasCapacity} gallons of gas");
+            Console.WriteLine($"Your car contains {GasCapacity} gallons of gas");
         }
 
+        public override void Brake()
+        {
+            Console.WriteLine("Screeeeeech your car just came to a halt");
+        }
 
     }
 }

@@ -17,12 +17,12 @@ namespace MyGarage
             Console.WriteLine($"You now have a full tank of {GasCapacity} gallons");
         }
 
-        public void Drive()
+        public virtual void Drive()
         {
             Console.WriteLine("Vroom vroom!");
         }
 
-        public void Brake()
+        public virtual void Brake()
         {
             Console.WriteLine("Your speed is now 0 miles per hour");
         }
