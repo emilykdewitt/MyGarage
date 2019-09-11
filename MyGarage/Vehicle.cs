@@ -12,7 +12,7 @@ namespace MyGarage
 
         public int PassengerOccupancy { get; set; }
 
-        public void Refuel()
+        public virtual void Refuel()
         {
             Console.WriteLine($"You now have a full tank of {GasCapacity} gallons");
         }
